@@ -13,11 +13,7 @@
     "moduleResolution": "node",
     "declaration": false,
     "sourceMap": false,
-    "baseUrl": "./src",
-    "paths": {
-      "*": ["*"]
-    }
-  },
-  "include": ["src/**/*.ts", "prisma/seed.ts"],
-  "exclude": ["node_modules", "dist"]
+   
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "prisma"]
 }
